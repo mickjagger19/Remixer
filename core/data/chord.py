@@ -264,7 +264,6 @@ class ChordsNormalizer:
 
     def normalize_chord_progression(self, key, sequence):
         def parse_chord(chord_name: str):
-
             comma = int(chord_name.find(":"))
             slash = int(chord_name.find("/"))
 
